@@ -45,6 +45,7 @@ namespace Password_hashing_app
 
         private void button1_Click(object sender, EventArgs e)
         {
+            label1.Text = "Enter your password:";
             if (!File.Exists(path))
             {
                 password = textBox1.Text;
